@@ -7,7 +7,15 @@
 //
 
 import UIKit
+var burliness = Int()
+var ingenuity = Int()
+var guile = Int()
+var bravdo = Int()
+var attunement = Int()
+var luck = Int()
 
+//convenience init (bur )
 class MainCharacter: NSObject {
+    
 
 }
