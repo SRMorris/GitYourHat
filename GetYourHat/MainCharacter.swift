@@ -7,15 +7,25 @@
 //
 
 import UIKit
-var burliness = Int()
-var ingenuity = Int()
-var guile = Int()
-var bravdo = Int()
-var attunement = Int()
-var luck = Int()
 
-//convenience init (bur )
-class MainCharacter: NSObject {
+class MainCharacter: NSObject
+{
+    var burliness = Int()
+    var ingenuity = Int()
+    var guile = Int()
+    var bravdo = Int()
+    var attunement = Int()
+    var luck = Int()
     
-
+    convenience init(burliness: Int, ingenuity: Int, guile: Int, bravdo: Int, attunement: Int, luck: Int)
+    {
+        self.init()
+        self.burliness = burliness
+        self.ingenuity = ingenuity
+        self.guile = guile
+        self.bravdo = bravdo
+        self.attunement = attunement
+        self.luck = luck
+    }
+    
 }

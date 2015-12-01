@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var character = MainCharacter()
 
     override func viewDidLoad() {
         super.viewDidLoad()
