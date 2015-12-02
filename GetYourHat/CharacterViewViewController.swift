@@ -12,8 +12,10 @@ class CharacterViewViewController: UIViewController {
 
     @IBOutlet weak var stat1: UILabel!
     @IBOutlet weak var stat2: UILabel!
-    
     @IBOutlet weak var stat3: UILabel!
+    @IBOutlet weak var stat4: UILabel!
+    @IBOutlet weak var stat5: UILabel!
+    @IBOutlet weak var stat6: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
